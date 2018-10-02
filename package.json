@@ -1,0 +1,18 @@
+{
+  "name": "05_yarn_workspaces_test",
+  "private": true,
+  "workspaces": [
+    "common-modules/build-modules/*", 
+    "common-modules/packageC",
+    "common-modules/packageD",
+    "services/*"
+  ],
+  "dependencies": {
+    "packageF": "file:./services/packageF"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:svennergr/yarn_workspaces_test.git",
+  "author": "svennergr",
+  "license": "MIT"
+}

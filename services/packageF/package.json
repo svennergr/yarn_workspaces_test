@@ -1,0 +1,16 @@
+{
+  "name": "packageF",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "packageB": "file:../../common-modules/build-modules/packageB",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "packageA": "file:../../common-modules/build-modules/packageA",
+    "gulp": "gulpjs/gulp#4.0",
+    "gulp-shell": "^0.6.5"
+  }
+}
